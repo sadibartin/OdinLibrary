@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" integrity="sha384-QYIZto+st3yW+o8+5OHfT6S482Zsvz2WfOzpFSXMF9zqeLcFV0/wlZpMtyFcZALm" crossorigin="anonymous">
+
+
+<button id="add-book"><i class="fa-regular fa-square-plus"></i>Add Books</button>
+<form id="book-form" style="display:none;">
+    <div>
+      <label for="book-name">Book Name:</label>
+      <input type="text" id="book-name" name="book-name" required>
+    </div>
+    
+    <div>
+      <label for="book-author">Book Author:</label>
+      <input type="text" id="book-author" name="book-author" required>
+    </div>
+    
+    <div>
+      <label for="book-pages">Book Pages:</label>
+      <input type="number" id="book-pages" name="book-pages" required>
+    </div>
+    
+    <div>
+        <label for="checkmark">Do you read?</label>
+      <input type="checkbox" id="book-checkmark" name="checkmark">
+      
+    </div>
+    <button id="submit"><i class="fa-regular fa-square-plus"></i>Submit</button>
+</form>
+
+<div id="bookContainer"></div>
+</body>
+</html>
+
+    <script src="app.js"></script>
+</body>
+</html>

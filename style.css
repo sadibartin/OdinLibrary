@@ -1,0 +1,19 @@
+#bookInfo {
+    box-sizing: border-box;
+   display: flex;
+   flex-direction: column;
+    border: 8px outset #ffb2aa;
+    border-radius: 0.5rem;
+    justify-content: space-evenly;
+background: #fff7f7;
+width: 200px  ;
+height: 200px;
+;
+}
+button {
+
+    background-color: rgb(204, 232, 162);
+}
+#book-form{
+
+background-color: rgb(213, 213, 225);}
