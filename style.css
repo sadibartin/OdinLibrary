@@ -8,12 +8,24 @@
 background: #fff7f7;
 width: 200px  ;
 height: 200px;
-;
+position: relative;
+
 }
 button {
 
     background-color: rgb(204, 232, 162);
+    position: relative;
 }
 #book-form{
+position: relative;
+display: flex;
+flex-direction:column;
 
 background-color: rgb(213, 213, 225);}
+
+#bg{
+    opacity: 0.2;
+    position: absolute;
+    display: flex;
+    
+}
